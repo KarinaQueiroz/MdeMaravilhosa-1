@@ -13,7 +13,6 @@ li, a {
     justify-content: space-around;
     position: fixed;
     background-color: rgb(103, 69, 130);
-    padding: 5px;
     width: 100%;
     top: 0;
     display: flex; 
@@ -26,17 +25,14 @@ li, a {
 
 header {
     background-image: url(../img/bg-banner-claro.png);
-    min-height: 100vh;
-    background-position-x: center;
+    height: 80vh;
     background-size: cover;
     color: white;
     text-align: left;
-    
 }
 
 h1 {
     font-size: 36px;
-      
 }
 
 .sobre {
