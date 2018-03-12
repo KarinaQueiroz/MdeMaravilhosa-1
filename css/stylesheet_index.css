@@ -1,0 +1,73 @@
+li, a {
+    text-decoration: none;
+    list-style: none;
+    font-size: 14px;
+    color:white;
+    display: inline-block;
+    justify-content: space-between;
+  }
+
+.navtop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: fixed;
+    background-color: rgb(103, 69, 130);
+    padding: 5px;
+    width: 100%;
+    top: 0;
+    display: flex; 
+}
+
+.navtop img {
+    height: 40%;
+    width: 40%;
+}
+
+header {
+    background-image: url(../img/bg-banner-claro.png);
+    min-height: 100vh;
+    background-position-x: center;
+    background-size: cover;
+    color: white;
+    text-align: left;
+    
+}
+
+h1 {
+    font-size: 36px;
+      
+}
+
+.sobre {
+    background-color: rgb(169, 114, 170);
+}
+     
+.secao1 {
+    display: inline-block;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 50%;
+    text-align: center;
+    margin-left: 300px;
+}
+
+.criadoras {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 50%;
+    text-align: center;
+    margin-left: 300px;
+}
+
+
+
+
+
+
+
